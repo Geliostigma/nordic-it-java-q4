@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Calculator {
 
 	public static void main(String[] args) {
-		System.out.println("Программа вычисляет сумму двух чисел.");
+		System.out.println("РџСЂРѕРіСЂР°РјРјР° РІС‹С‡РёСЃР»СЏРµС‚ СЃСѓРјРјСѓ РґРІСѓС… С‡РёСЃРµР».");
 		var scanner = new Scanner(System.in);
-		System.out.println("Введите первое число:");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ:");
 		var x = scanner.nextInt();
-		System.out.println("Введите второе число:");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ:");
 		var y = scanner.nextInt();
-		System.out.println("Решение:\n" + x + "+" + y + "=" + (x+y) );
+		System.out.println("Р РµС€РµРЅРёРµ:\n" + x + "+" + y + "=" + (x + y));
 	}
 
 }
