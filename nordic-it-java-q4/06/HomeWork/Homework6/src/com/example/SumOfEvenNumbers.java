@@ -24,12 +24,12 @@ public class SumOfEvenNumbers {
 	public static void main(String[] args) {
 
 		var scanner = new Scanner(System.in);
-		System.out.println("Программа выводит на экран сумму всех четных чисел");
+		System.out.println("РџСЂРѕРіСЂР°РјРјР° РІС‹РІРѕРґРёС‚ РЅР° СЌРєСЂР°РЅ СЃСѓРјРјСѓ РІСЃРµС… С‡РµС‚РЅС‹С… С‡РёСЃРµР»");
 
-		System.out.print("Введите число: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 		var y = scanner.nextInt();
 
-		System.out.print("Сумма всех четных чисел: ");
+		System.out.print("РЎСѓРјРјР° РІСЃРµС… С‡РµС‚РЅС‹С… С‡РёСЃРµР»: ");
 		System.out.print(resultSumOfEvenNumbers(y));
 
 	}
