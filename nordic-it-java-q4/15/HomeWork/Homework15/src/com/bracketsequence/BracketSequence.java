@@ -1,4 +1,4 @@
-package com.bracketsequence;
+﻿package com.bracketsequence;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,13 +25,13 @@ public class BracketSequence {
                     deque.offer(bracket);
                 }
             } else if (bracket == ']') {
-                if (deque.peekLast() != null && deque.peekLast().equals(']')) {
+                if (deque.peekLast() != null && deque.peekLast().equals('[')) {
                     deque.pollLast();
                 } else {
                     deque.offer(bracket);
                 }
             } else if (bracket == '}') {
-                if (deque.peekLast() != null && deque.peekLast().equals('}')) {
+                if (deque.peekLast() != null && deque.peekLast().equals('{')) {
                     deque.pollLast();
                 } else {
                     deque.offer(bracket);
